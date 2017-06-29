@@ -1,0 +1,127 @@
+﻿/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    background-color: #000;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+    border: 0;
+}
+
+.navbar-tcshn {
+    background: #333;
+}
+/*
+ * Main content
+ */
+.main {
+    padding: 10px;
+    background-color: #000;
+
+}
+
+
+
+.main .page-header {
+    margin-top: 0;
+}
+
+
+.gridster .gs-w {
+    background: #333;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.gridster .player {
+    -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    background: #BBB;
+}
+
+.gridster .gs-w.try {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 37px -169px;
+}
+
+.gridster .preview-holder {
+    border: none !important;
+    border-radius: 0 !important;
+    background: red !important;
+}
+
+.gridster ul {
+    background-color: #000;
+}
+
+.gridster li {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.gridster-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.gridster li div {
+    background: #888;
+    color: #333;
+    display: block;
+    height: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: left;
+    width: 100%;
+}
+
+.title {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    float: left;
+}
+
+.action {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    float: right;
+}
